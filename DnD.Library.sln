@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31919.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DnD.Library.Core", "src\Core\DnD.Library.Core\DnD.Library.Core.csproj", "{AB963FC3-08FF-463F-9C03-2CA1BBD15677}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{E4A89E88-CD56-4885-B845-0F87C962F5B8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "__Solution", "__Solution", "{7DC51EF3-87BB-4311-9A88-A9AE734F0ED0}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		LICENSE.md = LICENSE.md
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AB963FC3-08FF-463F-9C03-2CA1BBD15677}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB963FC3-08FF-463F-9C03-2CA1BBD15677}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB963FC3-08FF-463F-9C03-2CA1BBD15677}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB963FC3-08FF-463F-9C03-2CA1BBD15677}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AB963FC3-08FF-463F-9C03-2CA1BBD15677} = {E4A89E88-CD56-4885-B845-0F87C962F5B8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {61B65C41-B7A3-4296-90E5-6A4F263B07AE}
+	EndGlobalSection
+EndGlobal
